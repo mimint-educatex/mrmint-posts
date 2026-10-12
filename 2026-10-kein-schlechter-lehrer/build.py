@@ -37,16 +37,16 @@ img,d=base(TAG)
 y=pre(d)
 y=block(d,y,"deine Schüler nicht einfach aufs Klo dürfen.",sb(66),DG,82)+40
 d.text((M,y),"fast 200",font=b(150),fill=MINT); y+=180
-y=block(d,y,"dokumentierte Toilettengänge bei einzelnen Schülern. Nur während des Unterrichts.",r(44),GRAY,60)+30
-y=block(d,y,"Viele gehen nicht aufs Klo, sondern zum Vapen oder für TikTok.",b(44),DG,60)
+y=block(d,y,"dokumentierte Toilettengänge haben einzelne Schüler bei uns. Nur im Unterricht gezählt.",r(44),GRAY,60)+30
+y=block(d,y,"Oft geht es dabei nicht ums Klo, sondern ums Vapen oder um TikTok.",b(44),DG,60)
 img.save("r3.png")
 # 4 Handy
 img,d=base(TAG)
 y=pre(d)
-y=block(d,y,"Handys bei dir in der Tasche bleiben.",sb(66),DG,82)+50
+y=block(d,y,"das Handy bei dir im Unterricht Pause hat.",sb(66),DG,82)+50
 phone(d,W//2-60,y+150); y+=360
-y=block(d,y,"Viele Jugendliche können sich in der Freizeit nicht selbst regulieren.",r(44),GRAY,60)+20
-y=block(d,y,"Und zu Hause achtet oft niemand darauf.",b(44),DG,60)
+y=block(d,y,"Viele Jugendliche kommen in der Freizeit kaum vom Handy los.",r(44),GRAY,60)+20
+y=block(d,y,"Zu Hause achtet oft niemand darauf, weil anderes gerade wichtiger ist.",b(44),DG,60)
 img.save("r4.png")
 # 5 Schule als Ort
 img,d=base(TAG)
@@ -59,7 +59,7 @@ img.save("r5.png")
 img,d=base(TAG)
 y=block(d,520,"Eine Methode ist nur so gut wie die Klasse, für die sie gemacht ist.",sb(66),DG,82)+50
 y=block(d,y,"Was an einer Schule klappt, muss an deiner nicht klappen. Das ist kein Versagen. Das ist Kontext.",r(44),GRAY,62)+60
-d.rounded_rectangle([M,y,W-M-120,y+110],radius=55,fill=MINT)
-d.text(((W-120)//2,y+55),"Mehr echter Schulalltag: @mrmint18",font=b(34),fill=WHITE,anchor="mm")
+d.line([(M,y),(M+200,y)],fill=MINT,width=6); y+=40
+y=block(d,y,"Unterrichtsmaterial für Mathe, Physik, Technik und IT: auf eduki unter MrMint",r(36),MINT,50)
 img.save("r6.png")
 contact_sheet([f"r{i}.png" for i in range(1,7)],"/tmp/claude-0/-home-claude-mrmint-posts/7adc0e5c-6540-519e-a6e8-367b31d968bf/scratchpad/sheet.png")
