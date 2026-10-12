@@ -37,7 +37,7 @@ img,d=base(TAG)
 y=pre(d)
 y=block(d,y,"deine Schüler nicht ohne zu fragen aufs Klo dürfen.",sb(66),DG,82)+40
 d.text((M,y),"fast 200",font=b(150),fill=MINT); y+=180
-y=block(d,y,"dokumentierte Toilettengänge haben einzelne Schüler bei uns. Nur im Unterricht gezählt.",r(44),GRAY,60)+30
+y=block(d,y,"dokumentierte Toilettengänge in einem Schuljahr haben einzelne Schüler bei uns. Nur im Unterricht gezählt.",r(44),GRAY,60)+30
 y=block(d,y,"Oft geht es dabei nicht ums Klo, sondern ums Vapen oder um TikTok.",b(44),DG,60)
 img.save("r3.png")
 # 4 Handy
