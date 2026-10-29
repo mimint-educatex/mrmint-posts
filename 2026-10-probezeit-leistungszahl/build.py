@@ -31,22 +31,33 @@ def year_boxes(d, y, n_mint, labels=("Jahr 1", "Jahr 2", "Jahr 3")):
     return y + 160
 
 slides = []
+TOTAL = 8
+FOOT = 1450
 def save(img, n):
+    d = ImageDraw.Draw(img)
+    d.text((M, FOOT), "@mrmint18", font=r(30), fill=MINT)
+    pn = f"{n}/{TOTAL}"
+    pw = d.textlength(pn, font=b(30))
+    d.text((RIGHT-pw, FOOT), pn, font=b(30), fill=MINT)
+    if n < TOTAL:
+        cx, cy = RIGHT-pw-50, FOOT+18
+        for k in (0, 22):
+            d.line([(cx+k-14, cy-18), (cx+k+4, cy), (cx+k-14, cy+18)], fill=MINT, width=6)
     p = f"r{n}.png"; img.save(p); slides.append(p)
 
 # 1 Hook
 img, d = base(TAG)
-d.rectangle([0, 430, W, 850], fill=DG)
-d.text((M, 455), "Du bist", font=sb(150), fill=WHITE)
-d.text((M, 630), "im Ref?", font=sb(150), fill=MINT)
-y = block(d, 890, "Diese 2 Zahlen", sb(66), DG, 80)
+d.rectangle([0, 430, W, 820], fill=DG)
+d.text((M, 450), "Du bist", font=sb(145), fill=WHITE)
+d.text((M, 615), "im Ref?", font=sb(145), fill=MINT)
+y = block(d, 855, "Diese 2 Zahlen", sb(66), DG, 80)
 y = block(d, y, "musst du kennen:", sb(66), DG, 80) + 20
 bw = (RIGHT - M - 30) / 2
 for k, z in enumerate(["1,44", "1,5"]):
     x0 = M + k*(bw+30)
-    d.rounded_rectangle([x0, y, x0+bw, y+180], radius=30, fill=LIGHT)
-    d.text((x0+bw/2, y+90), z, font=sb(120), fill=MINT, anchor="mm")
-y += 215
+    d.rounded_rectangle([x0, y, x0+bw, y+170], radius=30, fill=LIGHT)
+    d.text((x0+bw/2, y+85), z, font=sb(115), fill=MINT, anchor="mm")
+y += 200
 y = block(d, y, "Sie entscheiden in BW, ob deine Probezeit 1, 2 oder 3 Jahre dauert.", b(42), DG, 58)
 save(img, 1)
 
@@ -73,9 +84,11 @@ save(img, 3)
 # 4 Hebel 2
 img, d = base(TAG)
 d.text((M, 440), "Zahl 2", font=b(44), fill=MINT)
-y = block(d, 500, "Deine Beurteilungen in der Probezeit", sb(68), DG, 82) + 20
+hf = sb(84)
+while d.textlength("Deine Beurteilungen", font=hf) > MAXW: hf = sb(hf.size - 2)
+y = block(d, 500, "Deine Beurteilungen", hf, DG, hf.size + 16) + 20
 y = minus_badge(d, y) + 10
-y = block(d, y, "Bedingung: Die Schulleitung beurteilt dich zweimal. Beide Noten sind", r(44), GRAY, 60) + 10
+y = block(d, y, "Bedingung: Die Schulleitung beurteilt dich zweimal. Beide Male", r(44), GRAY, 60) + 10
 d.text((M, y), "1,5 oder besser.", font=b(84), fill=MINT); y += 130
 y = card(d, y, "1. Beurteilung: meist nach ca. 9 Monaten, Besuch nicht Pflicht.", font=r(40), lh=52)
 y = card(d, y, "2. Beurteilung: immer mit Unterrichtsbesuch.", font=r(40), lh=52)
@@ -83,25 +96,16 @@ save(img, 4)
 
 # 5 Kombination
 img, d = base(TAG)
-y = block(d, 450, "Was heißt das für dich?", sb(70), DG, 86) + 30
+y = block(d, 440, "Was heißt das für dich?", sb(70), DG, 86) + 25
 rows = [("Beide Zahlen geschafft", "1 Jahr", MINT), ("Eine geschafft", "2 Jahre", MINT), ("Keine geschafft", "3 Jahre", DG)]
 for lab, val, col in rows:
-    d.rounded_rectangle([M, y, RIGHT, y+124], radius=26, fill=LIGHT)
-    d.text((M+40, y+62), lab, font=r(44), fill=DG, anchor="lm")
-    d.text((RIGHT-40, y+62), val, font=b(52), fill=col, anchor="rm")
-    y += 150
-y = block(d, y+10, "Gut zu wissen: Ist die 1. Beurteilung 1,5 oder besser, wird die 2. früher angesetzt.", r(42), GRAY, 58) + 20
+    d.rounded_rectangle([M, y, RIGHT, y+116], radius=26, fill=LIGHT)
+    d.text((M+40, y+58), lab, font=r(44), fill=DG, anchor="lm")
+    d.text((RIGHT-40, y+58), val, font=b(52), fill=col, anchor="rm")
+    y += 138
+y = block(d, y+5, "Gut zu wissen: Ist die 1. Beurteilung 1,5 oder besser, wird die 2. früher angesetzt.", r(40), GRAY, 54) + 15
 y = block(d, y, "Kein Automatismus: Am Ende entscheidet das Regierungspräsidium.", b(42), DG, 58)
 save(img, 5)
-
-# 6 Anrechnungen
-img, d = base(TAG)
-y = block(d, 440, "Bonus für die Probezeit", sb(66), DG, 80) + 15
-y = block(d, y, "Haben diese Zeiten deinen Weg ins Lehramt verzögert, können sie angerechnet werden:", r(42), GRAY, 58) + 30
-for t in ["Wehrdienst, Zivildienst, FSJ, FÖJ, BFD", "Elternzeit oder Pflege von Angehörigen", "Eigener Unterricht in deinen Fächern, z. B. Vertretungsvertrag"]:
-    y = card(d, y, t, font=r(40), lh=52)
-y = block(d, y+10, "Höchstens 2 Jahre. Das RP prüft jeden Fall.", b(42), MINT, 58)
-save(img, 6)
 
 # 7 Leistungszahl Formel
 img, d = base(TAG)
@@ -110,11 +114,11 @@ y = block(d, y, "in deiner Leistungszahl. Nach ihr wird die Rangliste für deine
 for fac, lab in [("10 ×", "Bachelornote"), ("+ 10 ×", "Masternote"), ("+ 20 ×", "Ref-Note")]:
     d.text((M, y), fac, font=b(70), fill=MINT)
     d.text((M+310, y+12), lab, font=b(56), fill=DG)
-    y += 105
-y = block(d, y+20, "Kleiner ist besser.", b(52), MINT, 70)
-y = block(d, y, "Bestwert: 40", b(52), MINT, 70) + 25
+    y += 95
+y = block(d, y+10, "Kleiner ist besser.", b(52), MINT, 70)
+y = block(d, y, "Bestwert: 40", b(52), MINT, 70) + 15
 y = block(d, y, "Altes Staatsexamen: beide Examensnoten je × 20.", r(40), GRAY, 56)
-save(img, 7)
+save(img, 6)
 
 # 8 Beispiel
 img, d = base(TAG)
@@ -129,7 +133,7 @@ d.text((M, y), "Leistungszahl", font=b(52), fill=DG)
 d.text((RIGHT, y-20), "72", font=b(96), fill=MINT, anchor="ra"); y += 130
 y = card(d, y, "Die Ref-Note zählt so viel wie Bachelor und Master zusammen.")
 y = block(d, y, "Wartezeit und Vertretungsverträge ändern die Zahl nicht.", b(42), DG, 58)
-save(img, 8)
+save(img, 7)
 
 # 9 Merksatz
 img, d = base(TAG)
@@ -138,11 +142,11 @@ y = block(d, y, "für deinen Listenplatz und für deine Probezeit.", sb(72), MIN
 y = block(d, y, "Alle Angaben für Baden-Württemberg, Stand 2026. Im Einzelfall beim Regierungspräsidium nachfragen.", r(40), GRAY, 56) + 50
 d.line([(M, y), (M+200, y)], fill=MINT, width=6); y += 40
 y = block(d, y, "Unterrichtsmaterial für Mathe, Physik, Technik und IT: auf eduki unter MrMint", r(36), MINT, 50)
-save(img, 9)
+save(img, 8)
 
 for p in slides:
     im = Image.open(p); px = im.load()
     # Inhalt unterhalb BOTTOM pruefen
-    low = [yy for yy in range(BOTTOM, H) for xx in range(0, W, 8) if px[xx, yy] != WHITE]
+    low = [yy for yy in range(1430, FOOT-5) for xx in range(0, W, 8) if px[xx, yy] != WHITE]
     print(p, "UEBERLAUF ab y=%d" % low[0] if low else "ok")
 contact_sheet(slides, sys.argv[1] if len(sys.argv) > 1 else "sheet.png")
