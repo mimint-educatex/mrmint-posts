@@ -36,10 +36,18 @@ def save(img, n):
 
 # 1 Hook
 img, d = base(TAG)
-d.text((M, 500), "2 Jahre", font=sb(190), fill=MINT)
-y = block(d, 740, "Probezeit kannst du dir sparen.", sb(90), DG, 110)
-y = block(d, y+50, "Mit den richtigen Noten. Und warum deine Ref-Note dabei doppelt zählt.", r(46), GRAY, 64)
-y = block(d, y+40, "Gilt für Baden-Württemberg.", b(40), MINT, 56)
+f = b(54); w = d.textlength("Du bist im Ref?", font=f) + 80
+d.rounded_rectangle([M, 480, M+w, 576], radius=48, fill=DG)
+d.text((M+40, 528), "Du bist im Ref?", font=f, fill=WHITE, anchor="lm")
+y = block(d, 630, "Diese 2 Zahlen musst du kennen:", sb(84), DG, 102) + 20
+bw = (RIGHT - M - 30) / 2
+for i, z in enumerate(["1,44", "1,5"]):
+    x0 = M + i*(bw+30)
+    d.rounded_rectangle([x0, y, x0+bw, y+210], radius=30, fill=LIGHT)
+    d.text((x0+bw/2, y+105), z, font=sb(130), fill=MINT, anchor="mm")
+y += 260
+y = block(d, y, "Sie entscheiden, ob du schon nach 1 statt 3 Jahren Beamter auf Lebenszeit wirst.", r(46), GRAY, 64)
+y = block(d, y+30, "Gilt für Baden-Württemberg.", b(40), MINT, 56)
 save(img, 1)
 
 # 2 Grundlagen
