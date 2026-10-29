@@ -36,10 +36,9 @@ def save(img, n):
 
 # 1 Hook
 img, d = base(TAG)
-y = block(d, 540, "Nur 1 Jahr", sb(104), DG, 124)
-y = block(d, y, "Probezeit", sb(104), DG, 124)
-y = block(d, y, "statt 3?", sb(104), MINT, 124)
-y = block(d, y+60, "So verkürzt du deine Probezeit. Und so wird aus deinen Noten deine Leistungszahl.", r(46), GRAY, 64)
+d.text((M, 500), "2 Jahre", font=sb(190), fill=MINT)
+y = block(d, 740, "Probezeit kannst du dir sparen.", sb(90), DG, 110)
+y = block(d, y+50, "Mit den richtigen Noten. Und warum deine Ref-Note dabei doppelt zählt.", r(46), GRAY, 64)
 y = block(d, y+40, "Gilt für Baden-Württemberg.", b(40), MINT, 56)
 save(img, 1)
 
