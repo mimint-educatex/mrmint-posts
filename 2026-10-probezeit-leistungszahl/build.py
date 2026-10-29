@@ -36,19 +36,18 @@ def save(img, n):
 
 # 1 Hook
 img, d = base(TAG)
-hf = sb(112)
-while d.textlength("Du bist im Ref?", font=hf) > MAXW: hf = sb(hf.size - 4)
-d.rectangle([0, 450, W, 690], fill=MINT)
-d.text((M, 570), "Du bist im Ref?", font=hf, fill=WHITE, anchor="lm")
-y = block(d, 740, "Diese 2 Zahlen musst du kennen:", sb(72), DG, 88) + 20
+d.rectangle([0, 430, W, 850], fill=DG)
+d.text((M, 455), "Du bist", font=sb(150), fill=WHITE)
+d.text((M, 630), "im Ref?", font=sb(150), fill=MINT)
+y = block(d, 890, "Diese 2 Zahlen", sb(66), DG, 80)
+y = block(d, y, "musst du kennen:", sb(66), DG, 80) + 20
 bw = (RIGHT - M - 30) / 2
-for i, z in enumerate(["1,44", "1,5"]):
-    x0 = M + i*(bw+30)
-    d.rounded_rectangle([x0, y, x0+bw, y+210], radius=30, fill=LIGHT)
-    d.text((x0+bw/2, y+105), z, font=sb(130), fill=MINT, anchor="mm")
-y += 260
-y = block(d, y, "Sie entscheiden, ob du schon nach 1 statt 3 Jahren Beamter auf Lebenszeit wirst.", r(46), GRAY, 64)
-y = block(d, y+30, "Gilt für Baden-Württemberg.", b(40), MINT, 56)
+for k, z in enumerate(["1,44", "1,5"]):
+    x0 = M + k*(bw+30)
+    d.rounded_rectangle([x0, y, x0+bw, y+180], radius=30, fill=LIGHT)
+    d.text((x0+bw/2, y+90), z, font=sb(120), fill=MINT, anchor="mm")
+y += 215
+y = block(d, y, "Sie entscheiden in BW, ob deine Probezeit 1, 2 oder 3 Jahre dauert.", b(42), DG, 58)
 save(img, 1)
 
 # 2 Grundlagen
