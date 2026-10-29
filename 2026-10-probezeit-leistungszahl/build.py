@@ -36,10 +36,11 @@ def save(img, n):
 
 # 1 Hook
 img, d = base(TAG)
-f = b(54); w = d.textlength("Du bist im Ref?", font=f) + 80
-d.rounded_rectangle([M, 480, M+w, 576], radius=48, fill=DG)
-d.text((M+40, 528), "Du bist im Ref?", font=f, fill=WHITE, anchor="lm")
-y = block(d, 630, "Diese 2 Zahlen musst du kennen:", sb(84), DG, 102) + 20
+hf = sb(112)
+while d.textlength("Du bist im Ref?", font=hf) > MAXW: hf = sb(hf.size - 4)
+d.rectangle([0, 450, W, 690], fill=MINT)
+d.text((M, 570), "Du bist im Ref?", font=hf, fill=WHITE, anchor="lm")
+y = block(d, 740, "Diese 2 Zahlen musst du kennen:", sb(72), DG, 88) + 20
 bw = (RIGHT - M - 30) / 2
 for i, z in enumerate(["1,44", "1,5"]):
     x0 = M + i*(bw+30)
