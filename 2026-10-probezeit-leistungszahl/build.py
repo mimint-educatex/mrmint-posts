@@ -52,50 +52,51 @@ save(img, 1)
 
 # 2 Grundlagen
 img, d = base(TAG)
-y = block(d, 470, "Erst mal: Was ist die Probezeit?", sb(70), DG, 86) + 30
-y = block(d, y, "Sie startet nach dem Ref, sobald du Beamter auf Probe wirst. Danach kommt die Verbeamtung auf Lebenszeit.", r(44), GRAY, 60) + 50
+y = block(d, 470, "Kurz vorweg: die Probezeit", sb(70), DG, 86) + 30
+y = block(d, y, "Sie beginnt nach dem Ref mit der Verbeamtung auf Probe. Erst danach wirst du Beamter auf Lebenszeit.", r(44), GRAY, 60) + 50
 y = year_boxes(d, y, 3)
 y = block(d, y+10, "Normal: 3 Jahre.", b(48), DG, 66)
 y = block(d, y, "Minimum: 1 Jahr.", b(48), MINT, 66) + 20
-y = block(d, y, "Dazwischen entscheiden zwei Hebel.", r(44), GRAY, 60)
+y = block(d, y, "Wie lange es bei dir dauert, entscheiden die zwei Zahlen.", r(44), GRAY, 60)
 save(img, 2)
 
 # 3 Hebel 1
 img, d = base(TAG)
-d.text((M, 470), "Hebel 1", font=b(44), fill=MINT)
+d.text((M, 470), "Zahl 1", font=b(44), fill=MINT)
 y = block(d, 530, "Deine Ref-Note", sb(84), DG, 100) + 20
 y = minus_badge(d, y) + 10
-y = block(d, y, "Bedingung: Note der Laufbahnprüfung (2. Staatsexamen) zwischen", r(44), GRAY, 60) + 10
-d.text((M, y), "1,0 und 1,44", font=b(110), fill=MINT); y += 150
-y = block(d, y, "Diese Note steht schon fest, wenn du an deiner Schule anfängst.", b(44), DG, 60)
+y = block(d, y, "Bedingung: Die Gesamtnote deines 2. Staatsexamens ist", r(44), GRAY, 60) + 10
+d.text((M, y), "1,44 oder besser.", font=b(84), fill=MINT); y += 130
+y = block(d, y, "Die Note hast du also schon sicher, wenn du an deiner Schule anfängst.", b(44), DG, 60)
 save(img, 3)
 
 # 4 Hebel 2
 img, d = base(TAG)
-d.text((M, 440), "Hebel 2", font=b(44), fill=MINT)
+d.text((M, 440), "Zahl 2", font=b(44), fill=MINT)
 y = block(d, 500, "Deine Beurteilungen in der Probezeit", sb(68), DG, 82) + 20
 y = minus_badge(d, y) + 10
-y = block(d, y, "Die Schulleitung beurteilt dich zweimal. Beide Noten müssen 1,5 oder besser sein.", r(44), GRAY, 60) + 30
-y = card(d, y, "1. Beurteilung: meist nach ca. 9 Monaten, auch ohne Besuch möglich.")
-y = card(d, y, "2. Beurteilung: immer mit Unterrichtsbesuch.")
+y = block(d, y, "Bedingung: Die Schulleitung beurteilt dich zweimal. Beide Noten sind", r(44), GRAY, 60) + 10
+d.text((M, y), "1,5 oder besser.", font=b(84), fill=MINT); y += 130
+y = card(d, y, "1. Beurteilung: meist nach ca. 9 Monaten, Besuch nicht Pflicht.", font=r(40), lh=52)
+y = card(d, y, "2. Beurteilung: immer mit Unterrichtsbesuch.", font=r(40), lh=52)
 save(img, 4)
 
 # 5 Kombination
 img, d = base(TAG)
 y = block(d, 450, "Was heißt das für dich?", sb(70), DG, 86) + 30
-rows = [("Beide Hebel erfüllt", "1 Jahr", MINT), ("Ein Hebel erfüllt", "2 Jahre", MINT), ("Keiner erfüllt", "3 Jahre", DG)]
+rows = [("Beide Zahlen geschafft", "1 Jahr", MINT), ("Eine geschafft", "2 Jahre", MINT), ("Keine geschafft", "3 Jahre", DG)]
 for lab, val, col in rows:
     d.rounded_rectangle([M, y, RIGHT, y+124], radius=26, fill=LIGHT)
     d.text((M+40, y+62), lab, font=r(44), fill=DG, anchor="lm")
     d.text((RIGHT-40, y+62), val, font=b(52), fill=col, anchor="rm")
     y += 150
 y = block(d, y+10, "Gut zu wissen: Ist die 1. Beurteilung 1,5 oder besser, wird die 2. früher angesetzt.", r(42), GRAY, 58) + 20
-y = block(d, y, "Ein Recht darauf gibt es nicht. Das Regierungspräsidium entscheidet.", b(42), DG, 58)
+y = block(d, y, "Kein Automatismus: Am Ende entscheidet das Regierungspräsidium.", b(42), DG, 58)
 save(img, 5)
 
 # 6 Anrechnungen
 img, d = base(TAG)
-y = block(d, 470, "Was noch zählt", sb(76), DG, 92) + 20
+y = block(d, 440, "Bonus für die Probezeit", sb(66), DG, 80) + 15
 y = block(d, y, "Haben diese Zeiten deinen Weg ins Lehramt verzögert, können sie angerechnet werden:", r(42), GRAY, 58) + 30
 for t in ["Wehrdienst, Zivildienst, FSJ, FÖJ, BFD", "Elternzeit oder Pflege von Angehörigen", "Eigener Unterricht in deinen Fächern, z. B. Vertretungsvertrag"]:
     y = card(d, y, t, font=r(40), lh=52)
@@ -104,15 +105,15 @@ save(img, 6)
 
 # 7 Leistungszahl Formel
 img, d = base(TAG)
-y = block(d, 470, "Und die Leistungszahl?", sb(72), DG, 88) + 20
-y = block(d, y, "Nach dieser Zahl wird die Rangliste für die Einstellung gebildet.", r(44), GRAY, 60) + 40
+y = block(d, 450, "Die Ref-Note zählt schon vorher:", sb(68), DG, 84) + 20
+y = block(d, y, "in deiner Leistungszahl. Nach ihr wird die Rangliste für deine Einstellung gebildet.", r(44), GRAY, 60) + 40
 for fac, lab in [("10 ×", "Bachelornote"), ("+ 10 ×", "Masternote"), ("+ 20 ×", "Ref-Note")]:
     d.text((M, y), fac, font=b(70), fill=MINT)
     d.text((M+310, y+12), lab, font=b(56), fill=DG)
     y += 105
-y = block(d, y+30, "Kleiner ist besser.", b(52), MINT, 70)
-y = block(d, y, "Bestwert: 40", b(52), MINT, 70) + 30
-y = block(d, y, "Mit altem Staatsexamen: 20 × Note des ersten plus 20 × Note des zweiten Staatsexamens.", r(40), GRAY, 56)
+y = block(d, y+20, "Kleiner ist besser.", b(52), MINT, 70)
+y = block(d, y, "Bestwert: 40", b(52), MINT, 70) + 25
+y = block(d, y, "Altes Staatsexamen: beide Examensnoten je × 20.", r(40), GRAY, 56)
 save(img, 7)
 
 # 8 Beispiel
