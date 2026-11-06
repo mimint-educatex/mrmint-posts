@@ -99,7 +99,7 @@ def mockup(pdf, pages, fach, titel, untertitel, fakten, fuss, out):
     tf = fit(d, titel, MOCHIY, W - 120, 120)
     d.multiline_text((60, 130), titel, font=tf, fill=WHITE, spacing=10)
     tb = d.multiline_textbbox((60, 130), titel, font=tf, spacing=10)
-    d.text((62, tb[3] + 22), untertitel, font=pop("Bold", 38), fill=DARK)
+    d.text((62, max(tb[3] + 22, 448)), untertitel, font=pop("Bold", 38), fill=DARK)
     for pno, a, (x, y) in zip(pages[1:], [8, -7], [(470, 540), (40, 560)]):
         c = card(page_img(pdf, pno, 420)).rotate(a, expand=True, resample=Image.BICUBIC)
         im.alpha_composite(c, (x, y))
@@ -150,7 +150,7 @@ def einblick(pdf, pages, beschriftung, fach, titel, untertitel, fakten, fuss, ou
     tf = fit(d, titel, MOCHIY, W - 120, 110)
     d.multiline_text((60, 130), titel, font=tf, fill=WHITE, spacing=10)
     tb = d.multiline_textbbox((60, 130), titel, font=tf, spacing=10)
-    d.text((62, tb[3] + 22), untertitel, font=pop("Bold", 38), fill=DARK)
+    d.text((62, max(tb[3] + 22, 448)), untertitel, font=pop("Bold", 38), fill=DARK)
     pw = 280
     xs = [36, 356, 676]
     for pno, x, lab, a in zip(pages, xs, beschriftung, [-3, 0, 3]):
