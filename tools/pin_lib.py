@@ -62,14 +62,19 @@ def label(d, text, x=60, y=48, fill=DARK):
 
 
 def chips(d, items, y=1240):
-    f = pop("Bold", 34)
-    widths = [d.textlength(t, font=f) + 80 for t in items]
+    size = 34
+    while True:
+        f = pop("Bold", size)
+        widths = [d.textlength(t, font=f) + 80 for t in items]
+        if sum(widths) + 20 * (len(items) - 1) <= W - 120 or size <= 24:
+            break
+        size -= 2
     gap = (W - 120 - sum(widths)) / max(len(items) - 1, 1)
     x = 60
     for t, w in zip(items, widths):
         d.rounded_rectangle([x, y, x + w, y + 64], radius=32, fill=WHITE, outline=PETROL, width=4)
         d.ellipse([x + 18, y + 20, x + 42, y + 44], fill=PETROL)
-        d.text((x + 56, y + 10), t, font=f, fill=DARK)
+        d.text((x + 56, y + 32), t, font=f, fill=DARK, anchor="lm")
         x += w + gap
 
 
@@ -94,12 +99,15 @@ def save(im, out):
 def mockup(pdf, pages, fach, titel, untertitel, fakten, fuss, out):
     im = Image.new("RGBA", (W, H), BG)
     d = ImageDraw.Draw(im)
+    tf = fit(d, titel, MOCHIY, W - 120, 120)
+    tb = d.multiline_textbbox((60, 130), titel, font=tf, spacing=10)
+    while tb[3] > 420 and tf.size > 70:
+        tf = F(MOCHIY, tf.size - 4)
+        tb = d.multiline_textbbox((60, 130), titel, font=tf, spacing=10)
     d.rectangle([0, 0, W, 430], fill=PETROL)
     label(d, fach)
-    tf = fit(d, titel, MOCHIY, W - 120, 120)
     d.multiline_text((60, 130), titel, font=tf, fill=WHITE, spacing=10)
-    tb = d.multiline_textbbox((60, 130), titel, font=tf, spacing=10)
-    d.text((62, max(tb[3] + 22, 448)), untertitel, font=pop("Bold", 38), fill=DARK)
+    d.text((62, 448), untertitel, font=fit(d, untertitel, POP.format("Bold"), W - 124, 38, 28), fill=DARK)
     for pno, a, (x, y) in zip(pages[1:], [8, -7], [(470, 540), (40, 560)]):
         c = card(page_img(pdf, pno, 420)).rotate(a, expand=True, resample=Image.BICUBIC)
         im.alpha_composite(c, (x, y))
@@ -145,12 +153,15 @@ def nutzen(pdf, fach, frage, antwort, bild, punkte, fuss, out):
 def einblick(pdf, pages, beschriftung, fach, titel, untertitel, fakten, fuss, out):
     im = Image.new("RGBA", (W, H), BG)
     d = ImageDraw.Draw(im)
+    tf = fit(d, titel, MOCHIY, W - 120, 110)
+    tb = d.multiline_textbbox((60, 130), titel, font=tf, spacing=10)
+    while tb[3] > 420 and tf.size > 70:
+        tf = F(MOCHIY, tf.size - 4)
+        tb = d.multiline_textbbox((60, 130), titel, font=tf, spacing=10)
     d.rectangle([0, 0, W, 430], fill=PETROL)
     label(d, fach)
-    tf = fit(d, titel, MOCHIY, W - 120, 110)
     d.multiline_text((60, 130), titel, font=tf, fill=WHITE, spacing=10)
-    tb = d.multiline_textbbox((60, 130), titel, font=tf, spacing=10)
-    d.text((62, max(tb[3] + 22, 448)), untertitel, font=pop("Bold", 38), fill=DARK)
+    d.text((62, 448), untertitel, font=fit(d, untertitel, POP.format("Bold"), W - 124, 38, 28), fill=DARK)
     pw = 280
     xs = [36, 356, 676]
     for pno, x, lab, a in zip(pages, xs, beschriftung, [-3, 0, 3]):
