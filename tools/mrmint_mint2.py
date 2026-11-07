@@ -206,6 +206,26 @@ class Post:
                 d.text((M + cw + 30, y + 20 + i * (size + 24)), r_lines[i], font=DISP(size, "SemiBold"), fill=INK)
         return y + h
 
+    STICKER = {"tipp": "tipp.png", "material": "material.png", "neu": "neu.png",
+               "inspiration": "inspiration.png", "superlehrkraft": "superlehrkraft.png", "eduki": "eduki.png"}
+
+    def sticker(self, img, y, kind, size=230, angle=-10):
+        """EIN Eduki-Sticker pro Post (Eduki-Vorgabe), unten rechts am Rand, leicht gedreht.
+        Nur auf dem Cover verwenden. y = Ende des Inhalts; Kollision wird geprueft."""
+        if getattr(self, "_sticker_used", False):
+            raise LayoutError("Nur EIN Sticker pro Post erlaubt (Eduki-Vorgabe).")
+        if kind not in self.STICKER:
+            raise LayoutError(f"Unbekannter Sticker {kind!r}, erlaubt: {list(self.STICKER)}")
+        s = Image.open(os.path.join(HERE, "sticker", self.STICKER[kind])).convert("RGBA")
+        s = s.resize((size, size), Image.LANCZOS).rotate(angle, resample=Image.BICUBIC, expand=True)
+        x0 = W - M - s.width + 20
+        y0 = H - 135 - s.height
+        if y > y0 - 30:
+            raise LayoutError(f"Sticker kollidiert mit Inhalt: Inhalt endet bei y={y}, Sticker beginnt bei y={y0}. Text kuerzen.")
+        img.paste(s, (x0, y0), s)
+        self._sticker_used = True
+        return y
+
     def warn(self, d, y, s, size=34):
         """Ein roter Hinweissatz (sparsam, max. 1 pro Slide)."""
         return self.text(d, y, s, BODY(size, "SemiBold"), RED, size + 16)
