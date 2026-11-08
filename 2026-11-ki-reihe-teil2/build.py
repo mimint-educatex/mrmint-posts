@@ -6,6 +6,7 @@ P = Post(total=9, kicker_base="KI im Lehreralltag")
 # 1 Cover
 img, d, y = P.cover("Teil 2", "Warum klingt die KI nie nach deinem Unterricht?",
                     "Vier Dinge, die ich der KI mitgebe, damit das Material zu meiner Klasse passt.")
+P.sticker(img, y, "tipp")
 P.done(img, d, y, dark=True)
 
 # 2 Problem
