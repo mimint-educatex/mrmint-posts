@@ -25,7 +25,13 @@ def pop(style, size):
 
 
 def page_img(pdf, pno, width, clip=None):
-    """Seite pno (1-basiert) rendern; clip = (x0,y0,x1,y1) in PDF-Punkten."""
+    """Seite pno (1-basiert) rendern; clip = (x0,y0,x1,y1) in PDF-Punkten.
+    pno darf auch ein Bildpfad (z. B. Paket-Titelblatt) oder ein Tupel (pdfpfad, seite) sein."""
+    if isinstance(pno, str):
+        im = Image.open(pno).convert("RGB")
+        return im.resize((width, int(im.height * width / im.width)), Image.LANCZOS)
+    if isinstance(pno, tuple):
+        pdf, pno = pno
     pg = fitz.open(pdf)[pno - 1]
     rect = fitz.Rect(*clip) if clip else pg.rect
     z = width / rect.width
