@@ -97,7 +97,23 @@ def footer(im, d, line1, line2="Unterrichtsmaterial von MrMint auf eduki"):
     d.text((262, 1422), line2, font=pop("Medium", 30), fill=MINT)
 
 
+STICKER = "material"  # eduki-Sticker: material | neu | tipp | eduki | None (ausschalten)
+STICKER_DIR = os.path.join(HERE, "sticker")
+
+
+def add_sticker(im, kind, size=150, angle=-10):
+    """Offizieller eduki-Sticker, max. 1 pro Pin, oben rechts am Rand des Kopfbands."""
+    if not kind:
+        return im
+    s = Image.open(os.path.join(STICKER_DIR, kind + ".png")).convert("RGBA")
+    s = s.resize((size, size), Image.LANCZOS).rotate(angle, resample=Image.BICUBIC, expand=True)
+    im = im.convert("RGBA")
+    im.paste(s, (W - s.width - 10, 8), s)
+    return im
+
+
 def save(im, out):
+    im = add_sticker(im, STICKER)
     im.convert("RGB").save(out, quality=92)
     return out
 
@@ -106,13 +122,13 @@ def mockup(pdf, pages, fach, titel, untertitel, fakten, fuss, out):
     im = Image.new("RGBA", (W, H), BG)
     d = ImageDraw.Draw(im)
     tf = fit(d, titel, MOCHIY, W - 120, 120)
-    tb = d.multiline_textbbox((60, 130), titel, font=tf, spacing=10)
+    tb = d.multiline_textbbox((60, 150), titel, font=tf, spacing=10)
     while tb[3] > 420 and tf.size > 70:
         tf = F(MOCHIY, tf.size - 4)
-        tb = d.multiline_textbbox((60, 130), titel, font=tf, spacing=10)
+        tb = d.multiline_textbbox((60, 150), titel, font=tf, spacing=10)
     d.rectangle([0, 0, W, 430], fill=PETROL)
     label(d, fach)
-    d.multiline_text((60, 130), titel, font=tf, fill=WHITE, spacing=10)
+    d.multiline_text((60, 150), titel, font=tf, fill=WHITE, spacing=10)
     d.text((62, 448), untertitel, font=fit(d, untertitel, POP.format("Bold"), W - 124, 38, 28), fill=DARK)
     for pno, a, (x, y) in zip(pages[1:], [8, -7], [(470, 540), (40, 560)]):
         c = card(page_img(pdf, pno, 420)).rotate(a, expand=True, resample=Image.BICUBIC)
@@ -160,13 +176,13 @@ def einblick(pdf, pages, beschriftung, fach, titel, untertitel, fakten, fuss, ou
     im = Image.new("RGBA", (W, H), BG)
     d = ImageDraw.Draw(im)
     tf = fit(d, titel, MOCHIY, W - 120, 110)
-    tb = d.multiline_textbbox((60, 130), titel, font=tf, spacing=10)
+    tb = d.multiline_textbbox((60, 150), titel, font=tf, spacing=10)
     while tb[3] > 420 and tf.size > 70:
         tf = F(MOCHIY, tf.size - 4)
-        tb = d.multiline_textbbox((60, 130), titel, font=tf, spacing=10)
+        tb = d.multiline_textbbox((60, 150), titel, font=tf, spacing=10)
     d.rectangle([0, 0, W, 430], fill=PETROL)
     label(d, fach)
-    d.multiline_text((60, 130), titel, font=tf, fill=WHITE, spacing=10)
+    d.multiline_text((60, 150), titel, font=tf, fill=WHITE, spacing=10)
     d.text((62, 448), untertitel, font=fit(d, untertitel, POP.format("Bold"), W - 124, 38, 28), fill=DARK)
     pw = 280
     xs = [36, 356, 676]
