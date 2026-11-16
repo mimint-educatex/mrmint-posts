@@ -19,7 +19,7 @@ Hinweis: Sonnen- und Mondfinsternis wurde am 2026-11-11 direkt für Do 2026-11-2
 
 ## Welle 1 (14 Pins, gebaut 2026-11-14, Reihenfolge = Auffüllreihenfolge, Pins noch NICHT gepusht)
 
-### W1-01 Klammer auflösen mit einem Plus oder Minus davor
+### W1-01 ERLEDIGT, eingeplant Sa 2026-11-21 14:26 (am 2026-11-16) Klammer auflösen mit einem Plus oder Minus davor
 - Bild: pinterest/2026-11-welle1/out/klammer_a_mockup.jpg
 - Titel: Klammern auflösen mit Plus oder Minus davor: Arbeitsblatt Mathe Klasse 7/8
 - Beschreibung: Arbeitsblatt zum Auflösen von Klammern mit einem Plus oder Minus davor für Mathe Klasse 7 und 8. Zwei Merkkästen erklären in Schritten, wann die Vorzeichen bleiben und wann sie sich umdrehen. Dazu Aufgaben mit Zahlen und negativen Zahlen in den Klammern, ideal zum Üben und Wiederholen an der Realschule. Mit Lösungen. #Klammern #Matheunterricht
