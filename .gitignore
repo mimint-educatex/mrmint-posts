@@ -1,1 +1,4 @@
 __pycache__/
+
+# Quell-PDFs der Materialien nie veroeffentlichen
+pinterest/*/src/
