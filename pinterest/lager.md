@@ -28,7 +28,7 @@ Hinweis: Sonnen- und Mondfinsternis wurde am 2026-11-11 direkt für Do 2026-11-2
 - Alt-Text: Pin: Klammern auflösen, Arbeitsblatt mit Merkkästen und Aufgaben zu Plus und Minus vor der Klammer
 - Prüfung: Ordner-ID 1723115 = Sheet = eduki-Seite (H1) OK
 
-### W1-02 Gewindeschneiden Theorie AB mit Lösungen
+### W1-02 ERLEDIGT, eingeplant Mi 2026-11-18 08:07, Board Technik Unterrichtsmaterial (eigen) (am 2026-11-18) Gewindeschneiden Theorie AB mit Lösungen
 - Bild: pinterest/2026-11-welle1/out/gewindeschneiden_a_mockup.jpg
 - Titel: Gewindeschneiden Theorie: Arbeitsblatt mit Lösung für Technik Klasse 7/8
 - Beschreibung: Theorie zum Gewindeschneiden für den Technikunterricht in Klasse 7 und 8. Das Arbeitsblatt erklärt Innengewinde und Außengewinde, den Einsatz von Vor-, Mittel- und Fertigschneider und enthält eine Tabelle mit Kernlochgrößen. Mit Lösung und einem Blatt zur Selbsteinschätzung. Passend für die Metallbearbeitung an der Realschule. #Gewindeschneiden #Technikunterricht
@@ -37,7 +37,7 @@ Hinweis: Sonnen- und Mondfinsternis wurde am 2026-11-11 direkt für Do 2026-11-2
 - Alt-Text: Pin: Gewindeschneiden, Theorie-Arbeitsblatt mit Kernlochtabelle und Lösung
 - Prüfung: Ordner-ID 2433773 = Sheet = eduki-Seite (H1) OK
 
-### W1-03 Kommunikation – digital kommunizieren Informatik
+### W1-03 ERLEDIGT, eingeplant Mi 2026-11-18 17:51, Board Digitale Bildung (eduki) (am 2026-11-18) Kommunikation – digital kommunizieren Informatik
 - Bild: pinterest/2026-11-welle1/out/kommunikation_a_mockup.jpg
 - Titel: Digital kommunizieren: Infotext und Fragen für Informatik Klasse 5/6
 - Beschreibung: Arbeitsblatt zur digitalen Kommunikation für Informatik und Medienbildung in Klasse 5 und 6. Ein Infotext erklärt Messenger, Textnachrichten und Emojis, danach beantworten die Schülerinnen und Schüler sechs Fragen zum Text. Sofort einsetzbar, ohne Vorbereitung, für Realschule und Sek I. Mit Lösungen. #Medienbildung #Informatik
@@ -46,7 +46,7 @@ Hinweis: Sonnen- und Mondfinsternis wurde am 2026-11-11 direkt für Do 2026-11-2
 - Alt-Text: Pin: Digital kommunizieren, Infotext mit Fragen für Informatik und Medienbildung
 - Prüfung: Ordner-ID 1939534 = Sheet = eduki-Seite (H1) OK
 
-### W1-04 Volumen Zylinder Einführung der Formel
+### W1-04 ERLEDIGT, eingeplant Do 2026-11-19 11:42, Board Mathematik Unterrichtsmaterial (eigen) (am 2026-11-18) Volumen Zylinder Einführung der Formel
 - Bild: pinterest/2026-11-welle1/out/zylinder_a_mockup.jpg
 - Titel: Volumen Zylinder: Formel in Gruppenarbeit erarbeiten, Mathe Klasse 8/9
 - Beschreibung: Gruppenarbeit zur Einführung der Formel für das Volumen des Zylinders in Mathe Klasse 8 und 9. Die Schülerinnen und Schüler arbeiten mit festen Rollen wie Zeitwächter, Protokollant und Sprecher und erarbeiten die Formel selbstständig. Mit Lehrermaterial und einem Blatt zur Selbsteinschätzung. Für Realschule und Sek I. Mit Lösungen. #Zylinder #Matheunterricht
