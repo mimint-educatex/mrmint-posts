@@ -55,7 +55,7 @@ Hinweis: Sonnen- und Mondfinsternis wurde am 2026-11-11 direkt für Do 2026-11-2
 - Alt-Text: Pin: Volumen Zylinder, Gruppenarbeit mit Rollenkarten und Lehrermaterial
 - Prüfung: Ordner-ID 1718021 = Sheet = eduki-Seite (H1) OK
 
-### W1-05 Biegen von Kunststoffen – Verfahren im Vergleich mit Lösungen
+### W1-05 ERLEDIGT, eingeplant Sa 2026-11-21 11:36, Board Technik Unterrichtsmaterial (eigen) (am 2026-11-19) Biegen von Kunststoffen – Verfahren im Vergleich mit Lösungen
 - Bild: pinterest/2026-11-welle1/out/kunststoff_biegen_a_mockup.jpg
 - Titel: Kunststoffe biegen: Verfahren im Vergleich mit Lösungen, Technik Klasse 7/8
 - Beschreibung: Arbeitsblatt zum Biegen von Kunststoffen für Technik Klasse 7 und 8. Ein Infotext vergleicht Verfahren wie das Biegen mit Heizdraht und Heißluftföhn und nennt Vor- und Nachteile. Dazu Fragen zum Text, mit Lösungen. Passend für den Bereich Kunststoffverarbeitung an der Realschule. #Kunststoff #Technikunterricht
@@ -64,7 +64,7 @@ Hinweis: Sonnen- und Mondfinsternis wurde am 2026-11-11 direkt für Do 2026-11-2
 - Alt-Text: Pin: Kunststoffe biegen, Arbeitsblatt mit Infotext und Fragen
 - Prüfung: Ordner-ID 1732867 = Sheet = eduki-Seite (H1) OK
 
-### W1-06 Lagebeziehungen von Geraden - lineare Funktionen
+### W1-06 ERLEDIGT, eingeplant Sa 2026-11-21 14:49, Board Mathematik Unterrichtsmaterialien eduki (Gruppenboard) (am 2026-11-19) Lagebeziehungen von Geraden - lineare Funktionen
 - Bild: pinterest/2026-11-welle1/out/lagebeziehungen_a_mockup.jpg
 - Titel: Lagebeziehungen von Geraden: parallel und senkrecht, Mathe Klasse 8/9
 - Beschreibung: Arbeitsblatt zu den Lagebeziehungen von Geraden für Mathe Klasse 8 und 9. Zu parallelen und senkrechten Geraden entscheiden die Schülerinnen und Schüler anhand der Steigungen, ob zwei lineare Funktionen parallel oder senkrecht zueinander liegen. Mit Lösungsblatt, geeignet für Realschule und Sek I. #LinearFunktionen #Matheunterricht
@@ -73,7 +73,7 @@ Hinweis: Sonnen- und Mondfinsternis wurde am 2026-11-11 direkt für Do 2026-11-2
 - Alt-Text: Pin: Lagebeziehungen von Geraden, Arbeitsblatt zu parallel und senkrecht bei linearen Funktionen
 - Prüfung: Ordner-ID 1922644 = Sheet = eduki-Seite (H1) OK
 
-### W1-07 Metall sägen Arbeitsblatt mit Lösungen
+### W1-07 ERLEDIGT, eingeplant Fr 2026-11-20 10:14, Board Naturwissenschaften (eduki) (am 2026-11-19) Metall sägen Arbeitsblatt mit Lösungen
 - Bild: pinterest/2026-11-welle1/out/metall_saegen_a_mockup.jpg
 - Titel: Metall sägen: Arbeitsblatt mit Lösungen für Technik Klasse 8/9
 - Beschreibung: Arbeitsblatt zum Sägen von Metall für Technik Klasse 8 und 9. Es erklärt die Handbügelsäge, die richtige Einspannung des Sägeblatts und die Zahnteilung, mit Aufgaben zu grob und fein. Mit Lösung und einem Blatt zur Selbsteinschätzung, passend zur Metallbearbeitung an der Realschule. #Metallbearbeitung #Technikunterricht
@@ -82,7 +82,7 @@ Hinweis: Sonnen- und Mondfinsternis wurde am 2026-11-11 direkt für Do 2026-11-2
 - Alt-Text: Pin: Metall sägen, Arbeitsblatt mit Handbügelsäge, Aufgaben und Lösung
 - Prüfung: Ordner-ID 2406298 = Sheet = eduki-Seite (H1) OK
 
-### W1-08 Einführung von Termen und Variablen
+### W1-08 ERLEDIGT, eingeplant Fr 2026-11-20 07:38, Board Mathematik Unterrichtsmaterial (eigen) (am 2026-11-19) Einführung von Termen und Variablen
 - Bild: pinterest/2026-11-welle1/out/terme_a_mockup.jpg
 - Titel: Terme und Variablen: Einführung für Mathe Klasse 6/7 mit Aufgaben
 - Beschreibung: Einführung in Terme und Variablen für Mathe Klasse 6 und 7. Das Arbeitsblatt lässt die Schülerinnen und Schüler Terme erkennen, aufstellen und Alltagssituationen als Term schreiben. Dazu gibt es Lehrermaterial und ein Blatt zur Selbsteinschätzung. Für Realschule und Sek I. Mit Lösungen. #Terme #Matheunterricht
@@ -91,7 +91,7 @@ Hinweis: Sonnen- und Mondfinsternis wurde am 2026-11-11 direkt für Do 2026-11-2
 - Alt-Text: Pin: Terme und Variablen, Arbeitsblatt zur Einführung mit Aufgaben
 - Prüfung: Ordner-ID 1710489 = Sheet = eduki-Seite (H1) OK
 
-### W1-09 Messen mit dem Multimeter Anleitung für Schülerinnen und Schüler - Widerstand
+### W1-09 ERLEDIGT, eingeplant Sa 2026-11-21 21:08, Board Naturwissenschaften (eduki) (am 2026-11-19) Messen mit dem Multimeter Anleitung für Schülerinnen und Schüler - Widerstand
 - Bild: pinterest/2026-11-welle1/out/multimeter_a_mockup.jpg
 - Titel: Messen mit dem Multimeter: Anleitung und Aufgaben für Technik Klasse 7/8
 - Beschreibung: Anleitung für Schülerinnen und Schüler zum Messen mit dem Multimeter in Technik Klasse 7 und 8. Die Abbildung des Geräts wird beschriftet, AC und DC werden unterschieden und der Widerstand wird gemessen. Drei Seiten mit Aufgaben für die Elektrotechnik an der Realschule. Mit Lösungen. #Multimeter #Elektrotechnik
@@ -144,3 +144,38 @@ Hinweis: Sonnen- und Mondfinsternis wurde am 2026-11-11 direkt für Do 2026-11-2
 - Ziel-URL: https://eduki.com/de/material/1716816
 - Alt-Text: Pin: Messschieber Übungen am Legostein, Messtabelle mit fünf Messaufgaben
 - Prüfung: Ordner-ID 1716816 = Sheet = eduki-Seite (H1) OK
+
+## Welle 2 (gebaut und eingeplant am 2026-11-19 im Probedurchlauf der geplanten Aufgabe, Skript pinterest/2026-11-welle2/make_welle2.py)
+Quellen: Drive-ZIPs und PDFs aus dem Ordner MrMint Eduki Material. eduki war nicht erreichbar, Prüfung über Drive-Ordnername mit ID, Katalog und PDF-Inhalt.
+
+### W2-01 ERLEDIGT, eingeplant Fr 2026-11-20 13:47, Board Physik Unterrichtsmaterial (eigen)
+- Bild: pinterest/2026-11-welle2/out/reflexion_a_mockup.jpg
+- Titel: Reflexion des Lichts: Zeichenübungen mit Spiegel für Physik Klasse 7/8
+- Ziel-URL: https://eduki.com/de/material/1727736
+- Prüfung: Drive-Ordner Reflexion des Lichts - Zeichenübungen_1727736 = Katalog; PDF 2 Seiten, 3 Aufgaben, keine Lösung enthalten
+
+### W2-02 ERLEDIGT, eingeplant Fr 2026-11-20 17:03, Board Mathematik Unterrichtsmaterialien eduki (Gruppenboard), Materialpaket
+- Bild: pinterest/2026-11-welle2/out/prozent_paket_a_mockup.jpg
+- Titel: Materialpaket Prozentrechnen mit Prozentstreifen: 7 Materialien, Mathe Klasse 7
+- Ziel-URL: https://eduki.com/de/material/1717254
+- Prüfung: ZIP Materialpaket Prozentrechnen - mit Prozentstreifen = Katalog 1717254; ZIP enthält 7 Material-Ordner
+
+### W2-03 ERLEDIGT, eingeplant Fr 2026-11-20 20:29, Board Technik Unterrichtsmaterial (eigen)
+- Bild: pinterest/2026-11-welle2/out/ottomotor_a_mockup.jpg
+- Titel: Ottomotor: Viertaktmotor und Zweitaktmotor erklärt, Technik Klasse 9
+- Ziel-URL: https://eduki.com/de/material/1985023
+- Prüfung: Drive-Ordner Ottomotor Viertaktmotor Zweitaktmotor - ei_1985023 = Katalog; PDF 4 Seiten (Text, 6 Fragen, Musterlösung, Beschriftung)
+
+### W2-04 ERLEDIGT, eingeplant Sa 2026-11-21 08:21, Board Digitale Bildung (eduki)
+- Bild: pinterest/2026-11-welle2/out/caesar_a_mockup.jpg
+- Titel: Caesar-Verschlüsselung: Übungen mit Lösung für Informatik Klasse 7
+- Ziel-URL: https://eduki.com/de/material/1888736
+- Prüfung: Drive-Ordner Caesar-Verschlüsselung Übungen IT_1888736 = Katalog; PDF 2 Seiten, Seite 2 Lösung
+
+### W2-05 ERLEDIGT, eingeplant Sa 2026-11-21 18:17, Board Mathematik Unterrichtsmaterial (eigen), Materialpaket
+- Bild: pinterest/2026-11-welle2/out/binom_paket_a_mockup.jpg
+- Titel: Materialpaket Binomische Formeln: Einführung und Übung, Mathe Klasse 8/9
+- Ziel-URL: https://eduki.com/de/material/1714830
+- Prüfung: ZIP Materialpaket binomische Formeln (Einführung/Übung) = Katalog 1714830; ZIP enthält 5 Material-Ordner (Erste, Zweite, Dritte, 2x Faktorisieren)
+
+Hinweis: Welle-1-Reste im Lager nach diesem Lauf: W1-10 Vierecke, W1-11 Holzverbindungen, W1-12 Widerstand, W1-13 Kunststoff Herstellung, W1-14 Messschieber.
