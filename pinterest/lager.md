@@ -179,3 +179,22 @@ Quellen: Drive-ZIPs und PDFs aus dem Ordner MrMint Eduki Material. eduki war nic
 - Prüfung: ZIP Materialpaket binomische Formeln (Einführung/Übung) = Katalog 1714830; ZIP enthält 5 Material-Ordner (Erste, Zweite, Dritte, 2x Faktorisieren)
 
 Hinweis: Welle-1-Reste im Lager nach diesem Lauf: W1-10 Vierecke, W1-11 Holzverbindungen, W1-12 Widerstand, W1-13 Kunststoff Herstellung, W1-14 Messschieber.
+
+## Lauf 2026-11-21 (Queue war leer, 10 Pins fuer So 22.11. und Mo 23.11., Skript pinterest/2026-11-21-lauf/make.py)
+Quellen: Drive. eduki war nicht erreichbar, Pruefung ueber Drive-Ordnername mit ID, Katalog und PDF-Inhalt. Lager Welle 1 (W1-10 bis W1-14) damit ERLEDIGT.
+
+| Zeit | Bild | Titel | URL-ID | Board | Pruefung |
+|---|---|---|---|---|---|
+| So 22.11. 07:52 | welle1/out/vierecke_a_mockup.jpg | Vierecke erkennen und benennen | 2107070 | Mathematik (eigen) | Lager, ID = Sheet |
+| So 22.11. 10:19 | welle1/out/holzverbindungen_a_mockup.jpg | Holzverbindungen | 1732309 | Technik (eigen) | Lager, ID = Sheet |
+| So 22.11. 12:44 | 2026-11-21-lauf/out/lichtbrechung_a_mockup.jpg | Lichtbrechung | 1927483 | Naturwissenschaften (eduki) | Ordner Lichtbrechung_1927483 = Sheet, PDF 3 Seiten, 6 Fragen, Musterloesung |
+| So 22.11. 15:37 | 2026-11-21-lauf/out/terme_paket_a_mockup.jpg | Materialpaket Terme vereinfachen | 2011064 | Mathe (eduki), Paket | ZIP Terme vereinfachen = Sheet, 5 Material-Ordner, Loesungen in allen 5 PDFs |
+| So 22.11. 18:53 | 2026-11-21-lauf/out/clientserver_a_mockup.jpg | Client-Server-Prinzip | 1860879 | Digitale Bildung (eduki) | Ordner Client-Server_1860879 = Sheet, PDF 2 Seiten, 4 Aufgaben, S. 2 Loesung |
+| Mo 23.11. 07:16 | welle1/out/widerstand_a_mockup.jpg | Widerstand messen | 1716818 | Naturwissenschaften (eduki) | Lager, ID = Sheet |
+| Mo 23.11. 09:58 | 2026-11-21-lauf/out/mondphasen_a_mockup.jpg | Die Mondphasen | 1755597 | Physik (eigen) | Ordner Mondphasen_1755597 = Sheet, PDF 2 Seiten, Lueckentext, S. 2 Loesung |
+| Mo 23.11. 13:22 | 2026-11-21-lauf/out/bruch_paket_a_mockup.jpg | Materialpaket Bruchrechnung | 1736914 | Mathematik (eigen), Paket | ZIP Bruchrechnung = Sheet, 4 Material-Ordner |
+| Mo 23.11. 16:11 | welle1/out/messschieber_a_mockup.jpg | Messschieber Uebungen am Legostein | 1716816 | Technik (eigen) | Lager, ID = Sheet |
+| Mo 23.11. 20:47 | welle1/out/kunststoff_herstellung_a_mockup.jpg | Herstellung von Kunststoff | 1730754 | Naturwissenschaften (eduki) | Lager, ID = Sheet |
+
+Board-Verteilung: 5 eigene, 5 eduki. Pakete: 2 von 10. Gestrichen: Paket IT Netzwerke (ZIP 14 MB, zu gross).
+Queue reicht bis Mo 23.11. 20:47. Naechster Lauf fuellt ab Di 24.11. auf.
