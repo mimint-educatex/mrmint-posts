@@ -9,3 +9,4 @@ P = [
 ]
 for k,pg,fach,t,u,ch,fuss,out in P:
     mockup(f"src/{k}.pdf",pg,fach,t,u,ch,fuss,f"out/{out}.jpg")
+mockup("src/netz_paket.pdf",[1,2,3],"INFORMATIK · SEK I","Materialpaket\nNetzwerke","Vom Client-Server-Prinzip bis zum WLAN",["4 Materialien","Netzwerke","Übungen"],"Netzwerke einfach verstehen","out/netzwerke_paket_a_mockup.jpg")

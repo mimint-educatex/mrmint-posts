@@ -198,3 +198,11 @@ Quellen: Drive. eduki war nicht erreichbar, Pruefung ueber Drive-Ordnername mit 
 
 Board-Verteilung: 5 eigene, 5 eduki. Pakete: 2 von 10. Gestrichen: Paket IT Netzwerke (ZIP 14 MB, zu gross).
 Queue reicht bis Mo 23.11. 20:47. Naechster Lauf fuellt ab Di 24.11. auf.
+
+## Lager Welle 3 (gebaut 2026-11-21, ZIP von Davide hochgeladen, Queue war voll)
+### L3-01 Materialpaket IT Netzwerke (noch nicht eingeplant)
+- Bild: pinterest/2026-11-21-lauf/out/netzwerke_paket_a_mockup.jpg
+- Titel: Materialpaket Netzwerke: 4 Materialien mit Aufgaben, Informatik Sek I
+- Ziel-URL: https://eduki.com/de/material/1860898
+- Board-Vorschlag: Digitale Bildung (eduki) 540150617747591295 oder Informatik und Medienbildung (eigen) 1028087489876593711
+- Pruefung: ZIP enthaelt 4 Material-Ordner (Client-Server 1860879, Daten speichern 1860923, Lokale Netzwerke 1860864, Verbindungen ins Internet 1885600), alle IDs im Sheet; Paket-ID 1860898 laut Sheet "Materialpaket IT - Netzwerke". Hinweis: Client-Server 1860879 ist am 22.11. 18:53 einzeln gepinnt, Paket-URL ist eine andere.
