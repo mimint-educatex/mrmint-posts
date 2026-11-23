@@ -206,3 +206,21 @@ Queue reicht bis Mo 23.11. 20:47. Naechster Lauf fuellt ab Di 24.11. auf.
 - Ziel-URL: https://eduki.com/de/material/1860898
 - Board-Vorschlag: Digitale Bildung (eduki) 540150617747591295 oder Informatik und Medienbildung (eigen) 1028087489876593711
 - Pruefung: ZIP enthaelt 4 Material-Ordner (Client-Server 1860879, Daten speichern 1860923, Lokale Netzwerke 1860864, Verbindungen ins Internet 1885600), alle IDs im Sheet; Paket-ID 1860898 laut Sheet "Materialpaket IT - Netzwerke". Hinweis: Client-Server 1860879 ist am 22.11. 18:53 einzeln gepinnt, Paket-URL ist eine andere.
+
+## Lauf 2026-11-23 (Queue war leer, 10 Pins für Di 24.11. und Mi 25.11., Skript pinterest/2026-11-23-lauf/make.py)
+Quellen: Drive. eduki war nicht erreichbar, Prüfung über Drive-Ordnername mit ID, Katalog und PDF-Inhalt. Übersprungen: Speichermedien 1910715 (PDF heißt "Daten Speichern", passt nicht sicher), Binärsystem 1762384 (kein Drive-Ordner gefunden). Hinweis: Optik- und Elektrotechnik-Paket waren schon am 17./18.11. gesendet, Sheet war dort veraltet.
+
+| Zeit | Bild | Titel | URL-ID | Board | Prüfung |
+|---|---|---|---|---|---|
+| Di 24.11. 07:33 | 2026-11-23-lauf/out/teilbarkeit_paket_a_mockup.jpg | Materialpaket Teilbarkeitsregeln | 2263901 | Mathe (eduki), Paket | ZIP = Sheet, 7 Material-Ordner, Lösungen in allen 7 PDFs |
+| Di 24.11. 10:09 | 2026-11-23-lauf/out/lochkamera_a_mockup.jpg | Lochkamera | 1794805 | Physik (eigen) | Ordner _1794805 = Sheet, PDF 2 Seiten, 6 Fragen, keine Lösung behauptet |
+| Di 24.11. 13:27 | 2026-11-23-lauf/out/eva_a_mockup.jpg | EVA-Prinzip | 1780240 | Digitale Bildung (eduki) | Ordner _1780240 = Sheet, PDF 3 Seiten, 5 Fragen, S. 3 Lösung |
+| Di 24.11. 16:44 | 2026-11-23-lauf/out/bohrmaschine_a_mockup.jpg | Standbohrmaschine Arbeitsschritte | 1832469 | Technik (eigen) | Ordner _1832469 = Sheet, PDF 2 Seiten, 13 Schritte, S. 2 Lösung |
+| Di 24.11. 20:19 | 2026-11-23-lauf/out/licht_a_mockup.jpg | Zerlegung des weißen Lichts | 2082193 | Naturwissenschaften (eduki) | Ordner _2082193 = Sheet, PDF 3 Seiten, 6 Fragen, Musterlösung |
+| Mi 25.11. 07:46 | 2026-11-23-lauf/out/ohm_a_mockup.jpg | Ohmsches Gesetz | 2105079 | Naturwissenschaften (eduki) | Ordner _2105079 = Sheet, PDF 4 Seiten, 5 Aufgaben, Lösungsblatt |
+| Mi 25.11. 10:27 | 2026-11-23-lauf/out/teiler_a_mockup.jpg | Teiler und Vielfache | 2263780 | Mathematik (eigen) | Ordner _2263780 = Sheet, PDF 3 Seiten, S. 3 Lösung |
+| Mi 25.11. 13:11 | 2026-11-21-lauf/out/netzwerke_paket_a_mockup.jpg | Materialpaket Netzwerke (L3-01) | 1860898 | Informatik (eigen), Paket | siehe Lager L3-01, ERLEDIGT |
+| Mi 25.11. 16:19 | 2026-11-23-lauf/out/farbmischung_a_mockup.jpg | Additive Farbmischung | 2082199 | Physik (eigen) | Ordner _2082199 = Sheet, PDF 3 Seiten, 6 Fragen, Lösung S. 3 |
+| Mi 25.11. 19:53 | 2026-11-23-lauf/out/linfkt_paket_a_mockup.jpg | Materialpaket Lineare Funktionen | 1971836 | Mathe (eduki), Paket | ZIP = Sheet, 2 Material-Ordner, Lösungen in beiden |
+
+Board-Verteilung: 5 eigene, 5 eduki. Pakete: 3 von 10. Bildvariante: alle A (mockup, neue Materialien). Queue reicht bis Mi 25.11. 19:53. Nächster Lauf füllt ab Do 26.11. auf.
