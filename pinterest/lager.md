@@ -216,7 +216,7 @@ Quellen: Drive. eduki war nicht erreichbar, Prüfung über Drive-Ordnername mit 
 | Di 24.11. 10:09 | 2026-11-23-lauf/out/lochkamera_a_mockup.jpg | Lochkamera | 1794805 | Physik (eigen) | Ordner _1794805 = Sheet, PDF 2 Seiten, 6 Fragen, keine Lösung behauptet |
 | Di 24.11. 13:27 | 2026-11-23-lauf/out/eva_a_mockup.jpg | EVA-Prinzip | 1780240 | Digitale Bildung (eduki) | Ordner _1780240 = Sheet, PDF 3 Seiten, 5 Fragen, S. 3 Lösung |
 | Di 24.11. 16:44 | 2026-11-23-lauf/out/bohrmaschine_a_mockup.jpg | Standbohrmaschine Arbeitsschritte | 1832469 | Technik (eigen) | Ordner _1832469 = Sheet, PDF 2 Seiten, 13 Schritte, S. 2 Lösung |
-| Di 24.11. 20:19 | 2026-11-23-lauf/out/licht_a_mockup.jpg | Zerlegung des weißen Lichts | 2082193 | Naturwissenschaften (eduki) | Ordner _2082193 = Sheet, PDF 3 Seiten, 6 Fragen, Musterlösung |
+| Di 24.11. 20:23 | 2026-11-23-lauf/out/licht_a_mockup.jpg | Zerlegung des weißen Lichts | 2082193 | Naturwissenschaften (eduki) | Ordner _2082193 = Sheet, PDF 3 Seiten, 6 Fragen, Musterlösung |
 | Mi 25.11. 07:46 | 2026-11-23-lauf/out/ohm_a_mockup.jpg | Ohmsches Gesetz | 2105079 | Naturwissenschaften (eduki) | Ordner _2105079 = Sheet, PDF 4 Seiten, 5 Aufgaben, Lösungsblatt |
 | Mi 25.11. 10:27 | 2026-11-23-lauf/out/teiler_a_mockup.jpg | Teiler und Vielfache | 2263780 | Mathematik (eigen) | Ordner _2263780 = Sheet, PDF 3 Seiten, S. 3 Lösung |
 | Mi 25.11. 13:11 | 2026-11-21-lauf/out/netzwerke_paket_a_mockup.jpg | Materialpaket Netzwerke (L3-01) | 1860898 | Informatik (eigen), Paket | siehe Lager L3-01, ERLEDIGT |
