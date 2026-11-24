@@ -1,0 +1,15 @@
+Wer schon mal einen Geheimcode knacken wollte, versteht schnell, warum die Caesar-Verschlüsselung heute als unsicher gilt 🤫
+
+Genau das probieren die Kinder in diesem Arbeitsblatt aus: In Aufgabe 1 entschlüsseln sie zwei Texte, einmal mit Verschiebung 7 und einmal mit 13. In Aufgabe 2 verschlüsseln sie selbst einen Satz. Wer schneller fertig ist, schreibt für die Expertenaufgabe einen eigenen Text, verschlüsselt ihn und tauscht ihn mit dem Nachbarn.
+
+Danach können deine Schüler ✏️
+einen Text mit der Caesar-Verschlüsselung verschlüsseln
+einen verschlüsselten Text mit bekannter Verschiebung entschlüsseln
+
+Lösungen sind natürlich dabei.
+
+Mein Material findest du bei @eduki_de unter der ID 1888736 📎
+
+Wer in deiner Klasse knackt den Code als Erstes?
+
+#informatiklehrer #informatikunterricht #verschlüsselung #caesarverschlüsselung #unterrichtsmaterial #lehrerleben #lehreralltag #realschule #arbeitsblatt #mrmint

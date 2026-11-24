@@ -1,0 +1,12 @@
+Caesar-Verschlüsselung: Code im Unterricht knacken
+Wer schon mal einen Geheimcode knacken wollte, versteht schnell, warum die Caesar-Verschlüsselung heute als unsicher gilt 🤫
+
+Bei der Caesar-Verschlüsselung wird jeder Buchstabe um eine feste Anzahl im Alphabet verschoben. Bei Verschiebung 5 wird zum Beispiel aus „Ich“ das Wort „Nhm“.
+
+Im Arbeitsblatt entschlüsseln die Kinder zuerst zwei Texte (Verschiebung 7 und 13), verschlüsseln dann selbst einen Satz mit Verschiebung 5 und knobeln in der Expertenaufgabe mit einem eigenen Text, den der Nachbar entschlüsseln soll. Die Lösungen sind dabei ✏️
+
+Mein Material findest du auf eduki unter der ID 1888736.
+
+Wer in deiner Klasse knackt den Code als Erstes?
+
+#lehrertok #informatiklehrer #informatik #verschlüsselung #caesar #unterrichtsmaterial #lehreralltag #lehrertipps #realschule #mrmint
