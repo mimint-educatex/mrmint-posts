@@ -224,3 +224,21 @@ Quellen: Drive. eduki war nicht erreichbar, Prüfung über Drive-Ordnername mit 
 | Mi 25.11. 19:53 | 2026-11-23-lauf/out/linfkt_paket_a_mockup.jpg | Materialpaket Lineare Funktionen | 1971836 | Mathe (eduki), Paket | ZIP = Sheet, 2 Material-Ordner, Lösungen in beiden |
 
 Board-Verteilung: 5 eigene, 5 eduki. Pakete: 3 von 10. Bildvariante: alle A (mockup, neue Materialien). Queue reicht bis Mi 25.11. 19:53. Nächster Lauf füllt ab Do 26.11. auf.
+
+## Lauf 2026-11-25 (Queue war leer, 10 Pins für Do 26.11. und Fr 27.11., Skript pinterest/2026-11-25-lauf/make.py)
+Quellen: Drive (Einzel-PDFs aus Ordnern, Pakete aus ZIP). eduki war nicht erreichbar, Prüfung über Drive-Ordnername mit ID, Katalog und PDF-Inhalt. Lager war leer (L3-01 erledigt). Bildvariante: alle A (mockup), alles Materialien ohne bisherigen Pin. Katalog korrigiert: Optik-Paket 1728151 und Elektrotechnik-Paket 2105265 waren am 17./18.11. schon gesendet.
+
+| Zeit | Bild (2026-11-25-lauf/out/) | Titel | URL-ID | Board | Prüfung |
+|---|---|---|---|---|---|
+| Do 26.11. 07:41 | spiegel_a_mockup.jpg | Spiegelbilder konstruieren | 1927498 | Physik (eigen) | Ordner _1927498 = Sheet, PDF 4 Seiten, 6 Fragen, Konstruktion, Musterlösung S. 3-4 |
+| Do 26.11. 10:13 | ascii_a_mockup.jpg | ASCII-Code | 1772243 | Digitale Bildung (eduki) | Ordner _1772243 = Sheet, PDF 4 Seiten, 4 Aufgaben, S. 3 Lösung, S. 4 Tabelle |
+| Do 26.11. 13:36 | linsen_paket_a_mockup.jpg | Materialpaket Sammellinse | 2381737 | Naturwissenschaften (eduki), Paket | ZIP Sammellinse Linsen = Sheet, 4 Material-Ordner, Lehrermaterial mit Lösung in 2 |
+| Do 26.11. 16:52 | vorwiderstand_a_mockup.jpg | Vorwiderstand für LEDs | 2105084 | Technik (eigen) | Ordner _2105084 = Sheet, PDF 4 Seiten, 7 Aufgaben, Lösungsblatt S. 4 |
+| Do 26.11. 20:11 | gleichungen_a_mockup.jpg | Gleichungen lösen | 1905000 | Mathematik (eigen) | ZIP-Ordner _1905000 = Sheet, PDF 3 Seiten, 6 Blöcke, keine Lösung (nicht behauptet) |
+| Fr 27.11. 07:27 | codes_paket_a_mockup.jpg | Materialpaket Codes und Codierung | 1781196 | Informatik und Medienbildung (eigen), Paket | ZIP Codes = Sheet, 4 Material-Ordner, Lösung nicht behauptet |
+| Fr 27.11. 10:44 | sehschwaechen_a_mockup.jpg | Kurz- und Weitsichtigkeit | 1849729 | Naturwissenschaften (eduki) | Ordner _1849729 = Sheet, PDF 3 Seiten, 6 Fragen, S. 3 Lösung |
+| Fr 27.11. 13:19 | zahlenstrahl_paket_a_mockup.jpg | Materialpaket Zahlenstrahl | 2229372 | Mathe (eduki), Paket | ZIP Zahlenstrahl = Sheet, 2 Material-Ordner, Lösung und Lehrermaterial in beiden |
+| Fr 27.11. 16:33 | prozentwert_a_mockup.jpg | Prozentwert mit Dreisatz | 1716808 | Mathematik (eigen) | Ordner _1716808 = Sheet, PDF 4 Seiten, 3 Aufgabenblöcke, Lösung S. 3-4 |
+| Fr 27.11. 20:58 | ki_alltag_a_mockup.jpg | KI im Alltag verstehen | 1905034 | Digitale Bildung (eduki) | Ordner _1905034 = Sheet, PDF 5 Seiten, 4 Aufgaben, Lösungen S. 4-5 |
+
+Board-Verteilung: 5 eigene, 5 eduki. Pakete: 3 von 10. Queue reicht bis Fr 27.11. 20:58. Nächster Lauf füllt ab Sa 28.11. auf.
