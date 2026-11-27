@@ -242,3 +242,23 @@ Quellen: Drive (Einzel-PDFs aus Ordnern, Pakete aus ZIP). eduki war nicht erreic
 | Fr 27.11. 20:58 | ki_alltag_a_mockup.jpg | KI im Alltag verstehen | 1905034 | Digitale Bildung (eduki) | Ordner _1905034 = Sheet, PDF 5 Seiten, 4 Aufgaben, Lösungen S. 4-5 |
 
 Board-Verteilung: 5 eigene, 5 eduki. Pakete: 3 von 10. Queue reicht bis Fr 27.11. 20:58. Nächster Lauf füllt ab Sa 28.11. auf.
+
+## Lauf 2026-11-27 (Queue war leer, 10 Pins für Sa 28.11. und So 29.11., Skript pinterest/2026-11-27-lauf/make.py)
+Quellen: Drive (Einzel-PDFs aus Ordnern, Pakete aus ZIP). eduki nicht genutzt, Prüfung über Drive-Ordnername mit ID, Katalog und PDF-Inhalt (Bild-PDFs per Seitenansicht gezählt). Lager war leer. Bildvariante: alle A (mockup), alles Materialien ohne bisherigen Pin. Uhrzeit 20:39 war schon belegt, daher 20:41.
+Katalog nachgetragen (laut Buffer schon gesendet, im Sheet leer): 1842405 Sammellinse (13.11.), 1740101 Brüche mult./div. (16.11.), 2210802 micro:bit Lernheft (16.11. und 19.11., 2 Pins), 1720901 Prop. Zuordnungen (18.11.), 1745326 Bruchgleichungen (18.11.), 1764819 Finsternis (19.11.), 1736906 Brüche add./sub. (19.11.), 1905000 Gleichungen auf 2 Pins (17.11. und 26.11.).
+Nicht gefunden in Drive (deshalb nicht genommen): Bohrerarten 1967074, Rationale Zahlen multiplizieren 1718047.
+
+| Zeit | Bild (2026-11-27-lauf/out/) | Titel | URL-ID | Board | Prüfung |
+|---|---|---|---|---|---|
+| Sa 28.11. 07:22 | flaechen_paket_a_mockup.jpg | Materialpaket Flächeninhalt und Umfang | 1824008 | Mathe (eduki), Paket | ZIP = Sheet, 4 Material-Ordner (1766351, 1773644, 1781736, 1786395), Zusammenfassungen, Lösung nicht behauptet |
+| Sa 28.11. 09:47 | schatten_a_mockup.jpg | Kern- und Halbschatten | 1745625 | Physik (eigen) | Ordner _1745625 = Sheet, PDF 2 Seiten, 5 Fragen + Konstruktion, Lösung S. 2 |
+| Sa 28.11. 12:53 | datenaustausch_a_mockup.jpg | Sicherer Datenaustausch | 1885604 | Digitale Bildung (eduki) | Ordner _1885604 = Sheet, PDF 2 Seiten, 6 Aufgaben + Expertenaufgabe, Lösung S. 2 |
+| Sa 28.11. 16:08 | transistor_a_mockup.jpg | Transistor und Dunkelschaltung | 2105121 | Technik (eigen) | Ordner _2105121 = Sheet, PDF 4 Seiten, 7 Aufgaben, Lösung S. 4 |
+| Sa 28.11. 19:34 | vergleich_a_mockup.jpg | Absoluter und relativer Vergleich | 1716794 | Mathematik (eigen) | Ordner _1716794 = Sheet, PDF 2 Seiten, Aufgaben a bis d, Lösung S. 2 |
+| So 29.11. 07:58 | dreitafel_paket_a_mockup.jpg | Materialpaket Technisches Zeichnen | 2261263 | Naturwissenschaften (eduki), Paket | ZIP = Sheet, 4 Material-Ordner (2261254, 2261257, 2229342, 2229355), Lösung + Lehrermaterial in allen 4 |
+| So 29.11. 10:36 | unsichtbar_a_mockup.jpg | Unsichtbares Licht | 2082211 | Naturwissenschaften (eduki) | Ordner _2082211 = Sheet, PDF 3 Seiten, 6 Fragen, Lösungsblatt S. 3 |
+| So 29.11. 13:43 | urheber_a_mockup.jpg | Urheberrecht und CC-Lizenzen | 1985030 | Informatik und Medienbildung (eigen) | Ordner _1985030 = Sheet, PDF 4 Seiten, 8 Aufgaben, Lösung S. 3-4 |
+| So 29.11. 17:26 | relais_paket_a_mockup.jpg | Materialpaket Schalter und Relais | 2105251 | Technik (eigen), Paket | ZIP = Sheet, 2 Material-Ordner (2105107, 2105114), Lösungen in beiden |
+| So 29.11. 20:41 | antiprop_a_mockup.jpg | Antiproportionale Zuordnungen | 1720910 | Mathe (eduki) | Ordner _1720910 = Sheet, PDF 4 Seiten, 4 Aufgaben, Lösung S. 3-4 |
+
+Board-Verteilung: 5 eigene, 5 eduki. Pakete: 3 von 10. Kontrolle nach Einplanen: 10 geplant, alle Uhrzeiten verschieden. Queue reicht bis So 29.11. 20:41. Nächster Lauf füllt ab Mo 30.11. auf.
